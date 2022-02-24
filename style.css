@@ -1,0 +1,45 @@
+.exiperiment {
+  text-align: center;
+}
+.exiperiment h1:hover {
+  animation: xyz 1s ease-in-out infinite;
+}
+
+body {
+  /* linear gradient */
+   background: linear-gradient(to right, rgb(148, 59, 59), rgb(116, 28, 116)) 
+  
+  
+}
+
+
+.row {
+  text-align: center;
+}
+
+@keyframes xyz {
+  0% {
+    opacity: 0;
+    color: black;
+  }
+  25% {
+    opacity: 1;
+    color: red;
+  }
+  50% {
+    opacity: 0;
+    color: black;
+  }
+
+  75% {
+    opacity: 1;
+    color: yellow;
+
+  }
+
+  100% {
+    opacity: 1;
+    color: white;
+  }
+
+}
